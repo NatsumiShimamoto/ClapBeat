@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2121DF1168A931E0027236E /* しろくま.png in Resources */ = {isa = PBXBuildFile; fileRef = A2121DF0168A931E0027236E /* しろくま.png */; };
+		A21BA76916897D02000AE99B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21BA76816897D02000AE99B /* UIKit.framework */; };
+		A21BA76B16897D02000AE99B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21BA76A16897D02000AE99B /* Foundation.framework */; };
+		A21BA76D16897D02000AE99B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21BA76C16897D02000AE99B /* CoreGraphics.framework */; };
+		A21BA77316897D02000AE99B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A21BA77116897D02000AE99B /* InfoPlist.strings */; };
+		A21BA77516897D03000AE99B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A21BA77416897D02000AE99B /* main.m */; };
+		A21BA77916897D03000AE99B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A21BA77816897D03000AE99B /* AppDelegate.m */; };
+		A21BA77B16897D03000AE99B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A21BA77A16897D03000AE99B /* Default.png */; };
+		A21BA77D16897D03000AE99B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A21BA77C16897D03000AE99B /* Default@2x.png */; };
+		A21BA77F16897D03000AE99B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A21BA77E16897D03000AE99B /* Default-568h@2x.png */; };
+		A21BA78216897D03000AE99B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21BA78016897D03000AE99B /* MainStoryboard.storyboard */; };
+		A21BA78516897D03000AE99B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A21BA78416897D03000AE99B /* ViewController.m */; };
+		A21BA78E16897D03000AE99B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21BA76816897D02000AE99B /* UIKit.framework */; };
+		A21BA78F16897D03000AE99B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21BA76A16897D02000AE99B /* Foundation.framework */; };
+		A21BA79716897D03000AE99B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A21BA79516897D03000AE99B /* InfoPlist.strings */; };
+		A21BA79A16897D03000AE99B /* ClapBearFixedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A21BA79916897D03000AE99B /* ClapBearFixedTests.m */; };
+		A21BA80316897E72000AE99B /* clap-button.png in Resources */ = {isa = PBXBuildFile; fileRef = A21BA80116897E72000AE99B /* clap-button.png */; };
+		A21BA80416897E72000AE99B /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = A21BA80216897E72000AE99B /* clap.wav */; };
+		A21BA80916897F2E000AE99B /* Clap.m in Sources */ = {isa = PBXBuildFile; fileRef = A21BA80816897F2E000AE99B /* Clap.m */; };
+		A21BA80F168984A5000AE99B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21BA80E168984A5000AE99B /* AudioToolbox.framework */; };
+		A21BA81D168A7B58000AE99B /* voice03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A21BA81C168A7B58000AE99B /* voice03.mp3 */; };
+		A21BA820168A7C42000AE99B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A21BA81F168A7C42000AE99B /* icon.png */; };
+		DDB6CF441AC296710065519E /* c416ae9d5aecbd02b28a5d51f2b03373.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDB6CF431AC296710065519E /* c416ae9d5aecbd02b28a5d51f2b03373.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A21BA79016897D03000AE99B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A21BA75B16897D02000AE99B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A21BA76316897D02000AE99B;
+			remoteInfo = ClapBearFixed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2121DF0168A931E0027236E /* しろくま.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "しろくま.png"; sourceTree = "<group>"; };
+		A21BA76416897D02000AE99B /* ClapBearFixed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClapBearFixed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21BA76816897D02000AE99B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A21BA76A16897D02000AE99B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A21BA76C16897D02000AE99B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A21BA77016897D02000AE99B /* ClapBearFixed-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClapBearFixed-Info.plist"; sourceTree = "<group>"; };
+		A21BA77216897D02000AE99B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A21BA77416897D02000AE99B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A21BA77616897D03000AE99B /* ClapBearFixed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClapBearFixed-Prefix.pch"; sourceTree = "<group>"; };
+		A21BA77716897D03000AE99B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A21BA77816897D03000AE99B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A21BA77A16897D03000AE99B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A21BA77C16897D03000AE99B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A21BA77E16897D03000AE99B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A21BA78116897D03000AE99B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A21BA78316897D03000AE99B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A21BA78416897D03000AE99B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A21BA78B16897D03000AE99B /* ClapBearFixedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClapBearFixedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21BA79416897D03000AE99B /* ClapBearFixedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClapBearFixedTests-Info.plist"; sourceTree = "<group>"; };
+		A21BA79616897D03000AE99B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A21BA79816897D03000AE99B /* ClapBearFixedTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClapBearFixedTests.h; sourceTree = "<group>"; };
+		A21BA79916897D03000AE99B /* ClapBearFixedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClapBearFixedTests.m; sourceTree = "<group>"; };
+		A21BA80116897E72000AE99B /* clap-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clap-button.png"; sourceTree = "<group>"; };
+		A21BA80216897E72000AE99B /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap.wav; sourceTree = "<group>"; };
+		A21BA80716897EEB000AE99B /* Clap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clap.h; sourceTree = "<group>"; };
+		A21BA80816897F2E000AE99B /* Clap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clap.m; sourceTree = "<group>"; };
+		A21BA80E168984A5000AE99B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A21BA81C168A7B58000AE99B /* voice03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = voice03.mp3; sourceTree = "<group>"; };
+		A21BA81F168A7C42000AE99B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		DDB6CF431AC296710065519E /* c416ae9d5aecbd02b28a5d51f2b03373.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c416ae9d5aecbd02b28a5d51f2b03373.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A21BA76116897D02000AE99B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21BA80F168984A5000AE99B /* AudioToolbox.framework in Frameworks */,
+				A21BA76916897D02000AE99B /* UIKit.framework in Frameworks */,
+				A21BA76B16897D02000AE99B /* Foundation.framework in Frameworks */,
+				A21BA76D16897D02000AE99B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21BA78716897D03000AE99B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21BA78E16897D03000AE99B /* UIKit.framework in Frameworks */,
+				A21BA78F16897D03000AE99B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A21BA75916897D02000AE99B = {
+			isa = PBXGroup;
+			children = (
+				A2121DF0168A931E0027236E /* しろくま.png */,
+				A21BA81F168A7C42000AE99B /* icon.png */,
+				A21BA76E16897D02000AE99B /* ClapBearFixed */,
+				A21BA79216897D03000AE99B /* ClapBearFixedTests */,
+				A21BA76716897D02000AE99B /* Frameworks */,
+				A21BA76516897D02000AE99B /* Products */,
+				A21BA80E168984A5000AE99B /* AudioToolbox.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		A21BA76516897D02000AE99B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A21BA76416897D02000AE99B /* ClapBearFixed.app */,
+				A21BA78B16897D03000AE99B /* ClapBearFixedTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A21BA76716897D02000AE99B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A21BA76816897D02000AE99B /* UIKit.framework */,
+				A21BA76A16897D02000AE99B /* Foundation.framework */,
+				A21BA76C16897D02000AE99B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A21BA76E16897D02000AE99B /* ClapBearFixed */ = {
+			isa = PBXGroup;
+			children = (
+				A21BA77716897D03000AE99B /* AppDelegate.h */,
+				A21BA77816897D03000AE99B /* AppDelegate.m */,
+				A21BA80116897E72000AE99B /* clap-button.png */,
+				DDB6CF431AC296710065519E /* c416ae9d5aecbd02b28a5d51f2b03373.jpg */,
+				A21BA81C168A7B58000AE99B /* voice03.mp3 */,
+				A21BA80216897E72000AE99B /* clap.wav */,
+				A21BA80716897EEB000AE99B /* Clap.h */,
+				A21BA80816897F2E000AE99B /* Clap.m */,
+				A21BA78016897D03000AE99B /* MainStoryboard.storyboard */,
+				A21BA78316897D03000AE99B /* ViewController.h */,
+				A21BA78416897D03000AE99B /* ViewController.m */,
+				A21BA76F16897D02000AE99B /* Supporting Files */,
+			);
+			path = ClapBearFixed;
+			sourceTree = "<group>";
+		};
+		A21BA76F16897D02000AE99B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A21BA77016897D02000AE99B /* ClapBearFixed-Info.plist */,
+				A21BA77116897D02000AE99B /* InfoPlist.strings */,
+				A21BA77416897D02000AE99B /* main.m */,
+				A21BA77616897D03000AE99B /* ClapBearFixed-Prefix.pch */,
+				A21BA77A16897D03000AE99B /* Default.png */,
+				A21BA77C16897D03000AE99B /* Default@2x.png */,
+				A21BA77E16897D03000AE99B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A21BA79216897D03000AE99B /* ClapBearFixedTests */ = {
+			isa = PBXGroup;
+			children = (
+				A21BA79816897D03000AE99B /* ClapBearFixedTests.h */,
+				A21BA79916897D03000AE99B /* ClapBearFixedTests.m */,
+				A21BA79316897D03000AE99B /* Supporting Files */,
+			);
+			path = ClapBearFixedTests;
+			sourceTree = "<group>";
+		};
+		A21BA79316897D03000AE99B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A21BA79416897D03000AE99B /* ClapBearFixedTests-Info.plist */,
+				A21BA79516897D03000AE99B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A21BA76316897D02000AE99B /* ClapBearFixed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A21BA79D16897D03000AE99B /* Build configuration list for PBXNativeTarget "ClapBearFixed" */;
+			buildPhases = (
+				A21BA76016897D02000AE99B /* Sources */,
+				A21BA76116897D02000AE99B /* Frameworks */,
+				A21BA76216897D02000AE99B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClapBearFixed;
+			productName = ClapBearFixed;
+			productReference = A21BA76416897D02000AE99B /* ClapBearFixed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A21BA78A16897D03000AE99B /* ClapBearFixedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A21BA7A016897D03000AE99B /* Build configuration list for PBXNativeTarget "ClapBearFixedTests" */;
+			buildPhases = (
+				A21BA78616897D03000AE99B /* Sources */,
+				A21BA78716897D03000AE99B /* Frameworks */,
+				A21BA78816897D03000AE99B /* Resources */,
+				A21BA78916897D03000AE99B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A21BA79116897D03000AE99B /* PBXTargetDependency */,
+			);
+			name = ClapBearFixedTests;
+			productName = ClapBearFixedTests;
+			productReference = A21BA78B16897D03000AE99B /* ClapBearFixedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A21BA75B16897D02000AE99B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastTestingUpgradeCheck = 0620;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "株式会社タマヤ";
+			};
+			buildConfigurationList = A21BA75E16897D02000AE99B /* Build configuration list for PBXProject "ClapBeatFixed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A21BA75916897D02000AE99B;
+			productRefGroup = A21BA76516897D02000AE99B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A21BA76316897D02000AE99B /* ClapBearFixed */,
+				A21BA78A16897D03000AE99B /* ClapBearFixedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A21BA76216897D02000AE99B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB6CF441AC296710065519E /* c416ae9d5aecbd02b28a5d51f2b03373.jpg in Resources */,
+				A21BA77316897D02000AE99B /* InfoPlist.strings in Resources */,
+				A21BA77B16897D03000AE99B /* Default.png in Resources */,
+				A21BA77D16897D03000AE99B /* Default@2x.png in Resources */,
+				A21BA77F16897D03000AE99B /* Default-568h@2x.png in Resources */,
+				A21BA78216897D03000AE99B /* MainStoryboard.storyboard in Resources */,
+				A21BA80316897E72000AE99B /* clap-button.png in Resources */,
+				A21BA80416897E72000AE99B /* clap.wav in Resources */,
+				A21BA81D168A7B58000AE99B /* voice03.mp3 in Resources */,
+				A21BA820168A7C42000AE99B /* icon.png in Resources */,
+				A2121DF1168A931E0027236E /* しろくま.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21BA78816897D03000AE99B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21BA79716897D03000AE99B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A21BA78916897D03000AE99B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A21BA76016897D02000AE99B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21BA77516897D03000AE99B /* main.m in Sources */,
+				A21BA77916897D03000AE99B /* AppDelegate.m in Sources */,
+				A21BA78516897D03000AE99B /* ViewController.m in Sources */,
+				A21BA80916897F2E000AE99B /* Clap.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21BA78616897D03000AE99B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21BA79A16897D03000AE99B /* ClapBearFixedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A21BA79116897D03000AE99B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A21BA76316897D02000AE99B /* ClapBearFixed */;
+			targetProxy = A21BA79016897D03000AE99B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A21BA77116897D02000AE99B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A21BA77216897D02000AE99B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A21BA78016897D03000AE99B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A21BA78116897D03000AE99B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		A21BA79516897D03000AE99B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A21BA79616897D03000AE99B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A21BA79B16897D03000AE99B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A21BA79C16897D03000AE99B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A21BA79E16897D03000AE99B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClapBearFixed/ClapBearFixed-Prefix.pch";
+				INFOPLIST_FILE = "ClapBearFixed/ClapBearFixed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A21BA79F16897D03000AE99B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClapBearFixed/ClapBearFixed-Prefix.pch";
+				INFOPLIST_FILE = "ClapBearFixed/ClapBearFixed-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A21BA7A116897D03000AE99B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ClapBearFixed.app/ClapBearFixed";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClapBearFixed/ClapBearFixed-Prefix.pch";
+				INFOPLIST_FILE = "ClapBearFixedTests/ClapBearFixedTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		A21BA7A216897D03000AE99B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ClapBearFixed.app/ClapBearFixed";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClapBearFixed/ClapBearFixed-Prefix.pch";
+				INFOPLIST_FILE = "ClapBearFixedTests/ClapBearFixedTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A21BA75E16897D02000AE99B /* Build configuration list for PBXProject "ClapBeatFixed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21BA79B16897D03000AE99B /* Debug */,
+				A21BA79C16897D03000AE99B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A21BA79D16897D03000AE99B /* Build configuration list for PBXNativeTarget "ClapBearFixed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21BA79E16897D03000AE99B /* Debug */,
+				A21BA79F16897D03000AE99B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A21BA7A016897D03000AE99B /* Build configuration list for PBXNativeTarget "ClapBearFixedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A21BA7A116897D03000AE99B /* Debug */,
+				A21BA7A216897D03000AE99B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A21BA75B16897D02000AE99B /* Project object */;
+}
