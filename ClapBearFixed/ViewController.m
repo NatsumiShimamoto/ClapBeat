@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 @implementation ViewController
 
@@ -31,6 +32,19 @@
         
         repeatNumbersForPicker[i] = numberText;
     }
+    
+    
+    
+    
+    UIImage *img = [UIImage imageNamed:@"しろくま.png"];
+    playButton = [[UIButton alloc] initWithFrame:CGRectMake(130, 300, 60, 60)];
+    [[playButton layer] setCornerRadius:30.0];
+    [playButton setClipsToBounds:YES];
+    
+    [playButton setBackgroundImage:img forState:UIControlStateNormal];
+    [playButton addTarget:self action:@selector(play:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.view addSubview:playButton];
 }
 
 // Do any additional setup after loading the view, typically from a nib.
@@ -76,6 +90,8 @@
     //Clapクラスの中のメソッドを呼び出し、指定回数分再生
     [clapInstance repeatClap:repeatCount];
 }
+
+
 
 
 @end

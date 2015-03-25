@@ -9,6 +9,12 @@
 #import <UIKit/UIKit.h>
 #import "Clap.h"
 
+
 @interface ViewController : UIViewController<UIPickerViewDataSource, UIPickerViewDelegate>
+{
+    IBOutlet UIButton *playButton;
+}
+
+-(IBAction)play:(id)sender;
 
 @end

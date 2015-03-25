@@ -23,12 +23,10 @@
 		A21BA78F16897D03000AE99B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21BA76A16897D02000AE99B /* Foundation.framework */; };
 		A21BA79716897D03000AE99B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A21BA79516897D03000AE99B /* InfoPlist.strings */; };
 		A21BA79A16897D03000AE99B /* ClapBearFixedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A21BA79916897D03000AE99B /* ClapBearFixedTests.m */; };
-		A21BA80316897E72000AE99B /* clap-button.png in Resources */ = {isa = PBXBuildFile; fileRef = A21BA80116897E72000AE99B /* clap-button.png */; };
-		A21BA80416897E72000AE99B /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = A21BA80216897E72000AE99B /* clap.wav */; };
 		A21BA80916897F2E000AE99B /* Clap.m in Sources */ = {isa = PBXBuildFile; fileRef = A21BA80816897F2E000AE99B /* Clap.m */; };
 		A21BA80F168984A5000AE99B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21BA80E168984A5000AE99B /* AudioToolbox.framework */; };
 		A21BA81D168A7B58000AE99B /* voice03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A21BA81C168A7B58000AE99B /* voice03.mp3 */; };
-		A21BA820168A7C42000AE99B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A21BA81F168A7C42000AE99B /* icon.png */; };
+		DDB1382C1AC2A19400954D11 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB1382B1AC2A19400954D11 /* QuartzCore.framework */; };
 		DDB6CF441AC296710065519E /* c416ae9d5aecbd02b28a5d51f2b03373.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDB6CF431AC296710065519E /* c416ae9d5aecbd02b28a5d51f2b03373.jpg */; };
 /* End PBXBuildFile section */
 
@@ -65,13 +63,11 @@
 		A21BA79616897D03000AE99B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A21BA79816897D03000AE99B /* ClapBearFixedTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClapBearFixedTests.h; sourceTree = "<group>"; };
 		A21BA79916897D03000AE99B /* ClapBearFixedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClapBearFixedTests.m; sourceTree = "<group>"; };
-		A21BA80116897E72000AE99B /* clap-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clap-button.png"; sourceTree = "<group>"; };
-		A21BA80216897E72000AE99B /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap.wav; sourceTree = "<group>"; };
 		A21BA80716897EEB000AE99B /* Clap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clap.h; sourceTree = "<group>"; };
 		A21BA80816897F2E000AE99B /* Clap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clap.m; sourceTree = "<group>"; };
 		A21BA80E168984A5000AE99B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		A21BA81C168A7B58000AE99B /* voice03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = voice03.mp3; sourceTree = "<group>"; };
-		A21BA81F168A7C42000AE99B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		DDB1382B1AC2A19400954D11 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		DDB6CF431AC296710065519E /* c416ae9d5aecbd02b28a5d51f2b03373.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c416ae9d5aecbd02b28a5d51f2b03373.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDB1382C1AC2A19400954D11 /* QuartzCore.framework in Frameworks */,
 				A21BA80F168984A5000AE99B /* AudioToolbox.framework in Frameworks */,
 				A21BA76916897D02000AE99B /* UIKit.framework in Frameworks */,
 				A21BA76B16897D02000AE99B /* Foundation.framework in Frameworks */,
@@ -103,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				A2121DF0168A931E0027236E /* しろくま.png */,
-				A21BA81F168A7C42000AE99B /* icon.png */,
 				A21BA76E16897D02000AE99B /* ClapBearFixed */,
 				A21BA79216897D03000AE99B /* ClapBearFixedTests */,
 				A21BA76716897D02000AE99B /* Frameworks */,
@@ -124,6 +120,7 @@
 		A21BA76716897D02000AE99B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DDB1382B1AC2A19400954D11 /* QuartzCore.framework */,
 				A21BA76816897D02000AE99B /* UIKit.framework */,
 				A21BA76A16897D02000AE99B /* Foundation.framework */,
 				A21BA76C16897D02000AE99B /* CoreGraphics.framework */,
@@ -134,12 +131,10 @@
 		A21BA76E16897D02000AE99B /* ClapBearFixed */ = {
 			isa = PBXGroup;
 			children = (
-				A21BA77716897D03000AE99B /* AppDelegate.h */,
-				A21BA77816897D03000AE99B /* AppDelegate.m */,
-				A21BA80116897E72000AE99B /* clap-button.png */,
 				DDB6CF431AC296710065519E /* c416ae9d5aecbd02b28a5d51f2b03373.jpg */,
 				A21BA81C168A7B58000AE99B /* voice03.mp3 */,
-				A21BA80216897E72000AE99B /* clap.wav */,
+				A21BA77716897D03000AE99B /* AppDelegate.h */,
+				A21BA77816897D03000AE99B /* AppDelegate.m */,
 				A21BA80716897EEB000AE99B /* Clap.h */,
 				A21BA80816897F2E000AE99B /* Clap.m */,
 				A21BA78016897D03000AE99B /* MainStoryboard.storyboard */,
@@ -261,10 +256,7 @@
 				A21BA77D16897D03000AE99B /* Default@2x.png in Resources */,
 				A21BA77F16897D03000AE99B /* Default-568h@2x.png in Resources */,
 				A21BA78216897D03000AE99B /* MainStoryboard.storyboard in Resources */,
-				A21BA80316897E72000AE99B /* clap-button.png in Resources */,
-				A21BA80416897E72000AE99B /* clap.wav in Resources */,
 				A21BA81D168A7B58000AE99B /* voice03.mp3 in Resources */,
-				A21BA820168A7C42000AE99B /* icon.png in Resources */,
 				A2121DF1168A931E0027236E /* しろくま.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
