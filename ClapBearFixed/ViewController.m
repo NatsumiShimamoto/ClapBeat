@@ -33,9 +33,6 @@
         repeatNumbersForPicker[i] = numberText;
     }
     
-    
-    
-    
     UIImage *img = [UIImage imageNamed:@"しろくま.png"];
     playButton = [[UIButton alloc] initWithFrame:CGRectMake(130, 300, 60, 60)];
     [[playButton layer] setCornerRadius:30.0];
@@ -60,7 +57,6 @@
     
     //今回は１つのカラム（手拍子の回数）のみ
     return 1;
-    
 }
 
 //カラムの要素を指定
@@ -90,8 +86,6 @@
     //Clapクラスの中のメソッドを呼び出し、指定回数分再生
     [clapInstance repeatClap:repeatCount];
 }
-
-
 
 
 @end
