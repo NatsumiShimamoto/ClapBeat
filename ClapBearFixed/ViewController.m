@@ -37,7 +37,12 @@
     playButton = [[UIButton alloc] initWithFrame:CGRectMake(130, 300, 60, 60)];
     [[playButton layer] setCornerRadius:30.0];
     [playButton setClipsToBounds:YES];
-    
+    // 枠線の色
+    [[playButton layer] setBorderColor:[[UIColor grayColor] CGColor]];
+    // 枠線の太さ
+    [[playButton layer] setBorderWidth:1.5];
+ 
+
     [playButton setBackgroundImage:img forState:UIControlStateNormal];
     [playButton addTarget:self action:@selector(play:) forControlEvents:UIControlEventTouchUpInside];
     
