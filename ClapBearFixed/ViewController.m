@@ -33,21 +33,9 @@
         repeatNumbersForPicker[i] = numberText;
     }
     
-    UIImage *img = [UIImage imageNamed:@"しろくま.png"];
-    playButton = [[UIButton alloc] initWithFrame:CGRectMake(130, 300, 60, 60)];
-    [[playButton layer] setCornerRadius:30.0];
-    [playButton setClipsToBounds:YES];
-    // 枠線の色
-    [[playButton layer] setBorderColor:[[UIColor grayColor] CGColor]];
-    // 枠線の太さ
-    [[playButton layer] setBorderWidth:1.5];
- 
-
-    [playButton setBackgroundImage:img forState:UIControlStateNormal];
-    [playButton addTarget:self action:@selector(play:) forControlEvents:UIControlEventTouchUpInside];
+    [self playButtonSetting];
     
-    [self.view addSubview:playButton];
-}
+    }
 
 // Do any additional setup after loading the view, typically from a nib.
 
@@ -87,10 +75,27 @@
 }
 
 //再生ボタンが押された際の処理
--(IBAction)play:(id)sender {
+-(void)play:(id)sender {
     //Clapクラスの中のメソッドを呼び出し、指定回数分再生
     [clapInstance repeatClap:repeatCount];
 }
 
+-(void)playButtonSetting{
+    
+    playButton = [[UIButton alloc] initWithFrame:CGRectMake(130, 300, 60, 60)];
+    [[playButton layer] setCornerRadius:30.0];
+    [playButton setClipsToBounds:YES];
+   
+    [[playButton layer] setBorderColor:[[UIColor grayColor] CGColor]];
+    
+    [[playButton layer] setBorderWidth:1.5];
+    
+    UIImage *img = [UIImage imageNamed:@"しろくま.png"];
 
+    [playButton setBackgroundImage:img forState:UIControlStateNormal];
+    [playButton addTarget:self action:@selector(play:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.view addSubview:playButton];
+
+}
 @end
