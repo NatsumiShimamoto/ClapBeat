@@ -79,7 +79,7 @@
 
 -(void)playButtonSetting{
     
-    playButton = [[UIButton alloc] initWithFrame:CGRectMake(130, 300, 60, 60)];
+    playButton = [[UIButton alloc] initWithFrame:CGRectMake(130, 340, 60, 60)];
     [[playButton layer] setCornerRadius:30.0];
     [playButton setClipsToBounds:YES];
    
