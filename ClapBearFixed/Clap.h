@@ -7,11 +7,20 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import <AudioToolbox/AudioToolbox.h>
 
-@interface Clap : NSObject
+@interface Clap : NSObject{
+   
+    UIViewController *viewController;
+    
+    UIImage *image;
+    UIImageView *imageView;
+    
+    int i;
+}
 
 +(id)initClap;
--(void)repeatClap:(int)count;
+-(void)repeatClap:(int)repeatCount;
 
 @end

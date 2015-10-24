@@ -12,7 +12,11 @@
 
 @interface ViewController : UIViewController<UIPickerViewDataSource, UIPickerViewDelegate>
 {
-    IBOutlet UIButton *playButton;
+    IBOutlet UIButton *encountButton;
+    
+    UIImage *image;
+    UIImageView *imageView;
+    int i;
 }
 
 -(IBAction)play:(id)sender;

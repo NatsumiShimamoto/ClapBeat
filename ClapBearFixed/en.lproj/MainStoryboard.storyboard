@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="z2P-jC-7FQ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13F1112" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="z2P-jC-7FQ">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
@@ -8,17 +8,13 @@
         <!--View Controller-->
         <scene sceneID="F8D-xO-gYL">
             <objects>
-                <viewController id="z2P-jC-7FQ" customClass="ViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="main" id="z2P-jC-7FQ" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lAd-iS-6GU">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="c416ae9d5aecbd02b28a5d51f2b03373.jpg" id="cQQ-JG-Re9">
-                                <rect key="frame" x="0.0" y="47" width="340" height="287"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="挨拶されたい回数を選んでボタンをクリック" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ORP-T4-PuO">
-                                <rect key="frame" x="36" y="209" width="249" height="60"/>
+                                <rect key="frame" x="36" y="40" width="249" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97604482962448846" green="0.97459013661932059" blue="1" alpha="0.37" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -26,18 +22,29 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" id="vqS-Mt-wfv">
-                                <rect key="frame" x="0.0" y="433" width="320" height="171"/>
+                                <rect key="frame" x="0.0" y="133" width="320" height="171"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <outlet property="dataSource" destination="z2P-jC-7FQ" id="qO3-J1-QYo"/>
                                     <outlet property="delegate" destination="z2P-jC-7FQ" id="Ez4-6E-tBH"/>
                                 </connections>
                             </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1GE-iN-MfN">
+                                <rect key="frame" x="121" y="322" width="78" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="ENCOUNT!">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="play:" destination="z2P-jC-7FQ" eventType="touchUpInside" id="s5M-Jw-lWj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="clapPickerView" destination="vqS-Mt-wfv" id="pmj-Ug-UqX"/>
+                        <outlet property="encountButton" destination="1GE-iN-MfN" id="PXm-pn-iCJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WIe-26-TV4" sceneMemberID="firstResponder"/>
@@ -45,9 +52,6 @@
             <point key="canvasLocation" x="103" y="303"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="c416ae9d5aecbd02b28a5d51f2b03373.jpg" width="550" height="433"/>
-    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

@@ -15,11 +15,15 @@
     Clap *clapInstance;
     IBOutlet UIPickerView *clapPickerView;
     NSString *repeatNumbersForPicker [10];
+    NSString *repearPolarbear[10];
+    
     int repeatCount;
 }
 
 - (void)viewDidLoad{
     [super viewDidLoad];
+    
+    
     //clapを初期化
     clapInstance = [Clap initClap];
     
@@ -27,13 +31,12 @@
     repeatCount = 1;
     
     //PickerViewの選択肢一覧を準備
-    for (int i = 0; i <10; i++){
+    for (i = 0; i <10; i++){
         NSString *numberText = [NSString stringWithFormat:@"%d回",i+1];
         
         repeatNumbersForPicker[i] = numberText;
     }
-    [self playButtonSetting];
-    }
+}
 
 
 - (void)didReceiveMemoryWarning
@@ -73,26 +76,58 @@
 
 //再生ボタンが押された際の処理
 -(void)play:(id)sender {
-    //Clapクラスの中のメソッドを呼び出し、指定回数分再生
-    [clapInstance repeatClap:repeatCount];
+    
+    NSLog(@"play");
+    
+    
+    
+    for(i = 0;i < repeatCount;i++){
+        
+        //Clapクラスの中のメソッドを呼び出し、指定回数分再生
+        [clapInstance repeatClap:repeatCount];
+        [self fallingBear];
+        
+       
+        usleep(500000); //0.5秒（500000);
+       
+        
+        NSLog(@"while");
+    }
 }
 
--(void)playButtonSetting{
-    
-    playButton = [[UIButton alloc] initWithFrame:CGRectMake(130, 355, 60, 60)];
-    [[playButton layer] setCornerRadius:30.0];
-    [playButton setClipsToBounds:YES];
-   
-    [[playButton layer] setBorderColor:[[UIColor grayColor] CGColor]];
-    
-    [[playButton layer] setBorderWidth:1.5];
-    
-    UIImage *img = [UIImage imageNamed:@"しろくま.png"];
 
-    [playButton setBackgroundImage:img forState:UIControlStateNormal];
-    [playButton addTarget:self action:@selector(play:) forControlEvents:UIControlEventTouchUpInside];
-    
-    [self.view addSubview:playButton];
 
+
+-(void)fallingBear{
+    NSLog(@"%d",i);
+        
+    image = [UIImage imageNamed:@"polarbear.png"];
+    imageView = [[UIImageView alloc]initWithImage:image];
+    
+    imageView.frame = CGRectMake(15+i*40, -150, 85, 150);
+    
+    [self.view addSubview:imageView];
+    NSLog(@"%@", NSStringFromCGRect(imageView.frame));
+    
+    // アニメーション
+    
+    [UIView animateWithDuration:0.5f // アニメーション速度2.5秒
+                          delay:0.1f // 0.5秒後にアニメーション
+                        options:UIViewAnimationOptionCurveEaseInOut
+                     animations:^{
+                         imageView.transform = CGAffineTransformMakeTranslation(0, 550);
+                         NSLog(@"移動");
+                     } completion:^(BOOL finished) {
+                         // アニメーション終了時
+                         NSLog(@"アニメーション終了");
+                         
+                     }];
+    NSLog(@"%@", NSStringFromCGRect(imageView.frame));
+    
+    
+    
 }
+
+
+
 @end

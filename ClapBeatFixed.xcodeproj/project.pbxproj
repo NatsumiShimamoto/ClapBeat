@@ -26,8 +26,8 @@
 		A21BA80916897F2E000AE99B /* Clap.m in Sources */ = {isa = PBXBuildFile; fileRef = A21BA80816897F2E000AE99B /* Clap.m */; };
 		A21BA80F168984A5000AE99B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21BA80E168984A5000AE99B /* AudioToolbox.framework */; };
 		A21BA81D168A7B58000AE99B /* voice03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A21BA81C168A7B58000AE99B /* voice03.mp3 */; };
+		DD790C721BDA69690084D45C /* polarbear.png in Resources */ = {isa = PBXBuildFile; fileRef = DD790C711BDA69690084D45C /* polarbear.png */; };
 		DDB1382C1AC2A19400954D11 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB1382B1AC2A19400954D11 /* QuartzCore.framework */; };
-		DDB6CF441AC296710065519E /* c416ae9d5aecbd02b28a5d51f2b03373.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DDB6CF431AC296710065519E /* c416ae9d5aecbd02b28a5d51f2b03373.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +67,8 @@
 		A21BA80816897F2E000AE99B /* Clap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clap.m; sourceTree = "<group>"; };
 		A21BA80E168984A5000AE99B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		A21BA81C168A7B58000AE99B /* voice03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = voice03.mp3; sourceTree = "<group>"; };
+		DD790C711BDA69690084D45C /* polarbear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = polarbear.png; sourceTree = "<group>"; };
 		DDB1382B1AC2A19400954D11 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		DDB6CF431AC296710065519E /* c416ae9d5aecbd02b28a5d51f2b03373.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c416ae9d5aecbd02b28a5d51f2b03373.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,8 +131,8 @@
 		A21BA76E16897D02000AE99B /* ClapBearFixed */ = {
 			isa = PBXGroup;
 			children = (
-				DDB6CF431AC296710065519E /* c416ae9d5aecbd02b28a5d51f2b03373.jpg */,
 				A21BA81C168A7B58000AE99B /* voice03.mp3 */,
+				DD790C711BDA69690084D45C /* polarbear.png */,
 				A21BA77716897D03000AE99B /* AppDelegate.h */,
 				A21BA77816897D03000AE99B /* AppDelegate.m */,
 				A21BA80716897EEB000AE99B /* Clap.h */,
@@ -250,7 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDB6CF441AC296710065519E /* c416ae9d5aecbd02b28a5d51f2b03373.jpg in Resources */,
+				DD790C721BDA69690084D45C /* polarbear.png in Resources */,
 				A21BA77316897D02000AE99B /* InfoPlist.strings in Resources */,
 				A21BA77B16897D03000AE99B /* Default.png in Resources */,
 				A21BA77D16897D03000AE99B /* Default@2x.png in Resources */,
