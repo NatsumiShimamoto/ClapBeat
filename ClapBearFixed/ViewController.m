@@ -74,11 +74,11 @@
     repeatCount = (int)row+1;
 }
 
+
 //再生ボタンが押された際の処理
 -(void)play:(id)sender {
     
     NSLog(@"play");
-    
     
     
     for(i = 0;i < repeatCount;i++){
@@ -87,44 +87,43 @@
         [clapInstance repeatClap:repeatCount];
         [self fallingBear];
         
-       
-        usleep(500000); //0.5秒（500000);
-       
-        
         NSLog(@"while");
+        
     }
 }
 
 
 
 
+
+
 -(void)fallingBear{
     NSLog(@"%d",i);
-        
+    
+    
     image = [UIImage imageNamed:@"polarbear.png"];
     imageView = [[UIImageView alloc]initWithImage:image];
     
-    imageView.frame = CGRectMake(15+i*40, -150, 85, 150);
-    
+    imageView.frame = CGRectMake(15+i*40, -160, 85, 160);
     [self.view addSubview:imageView];
+    
     NSLog(@"%@", NSStringFromCGRect(imageView.frame));
     
     // アニメーション
     
     [UIView animateWithDuration:0.5f // アニメーション速度2.5秒
-                          delay:0.1f // 0.5秒後にアニメーション
+                          delay:0.1f + 0.5f * i // 0.5秒後にアニメーション
                         options:UIViewAnimationOptionCurveEaseInOut
                      animations:^{
                          imageView.transform = CGAffineTransformMakeTranslation(0, 550);
                          NSLog(@"移動");
+                        
                      } completion:^(BOOL finished) {
                          // アニメーション終了時
                          NSLog(@"アニメーション終了");
                          
                      }];
     NSLog(@"%@", NSStringFromCGRect(imageView.frame));
-    
-    
     
 }
 
