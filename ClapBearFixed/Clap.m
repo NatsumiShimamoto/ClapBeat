@@ -34,18 +34,15 @@
     AudioServicesPlaySystemSound(soundID);
 }
 
-//while文による繰り返し
+
 -(void)repeatClap:(int)repeatCount {
-    //iの値を初期化
-    i = 0;
     
     //音を再生
     [self play];
     
     //0.5秒（500000);
     usleep(500000);
-    
-    
+       
 }
 
 

@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0aXQI3iNjwg/3wUKz4OFg0dbW0c=
+		9frKahb2MxuHrmt8c0Ifgg+IPXw=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -53,7 +53,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vHBJQ5M5wyrLGnrndRy/gX39KFU=
+			r8R2fdNXxBH8PNgLLnwoLcEuBGo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -62,34 +62,34 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vHBJQ5M5wyrLGnrndRy/gX39KFU=
+			r8R2fdNXxBH8PNgLLnwoLcEuBGo=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>en.lproj/MainStoryboard.storyboardc/UIViewController-z2P-jC-7FQ.nib/objects-8.0+.nib</key>
+		<key>en.lproj/MainStoryboard.storyboardc/main.nib/objects-8.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7H4nlA0v8fQv8ANMN5KdXV/yckc=
+			amfWLH14kPJfzHd40Css0E/PPd0=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>en.lproj/MainStoryboard.storyboardc/UIViewController-z2P-jC-7FQ.nib/objects.nib</key>
+		<key>en.lproj/MainStoryboard.storyboardc/main.nib/objects.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9N4v1eJ+uh66osEvHCZr/D2FifU=
+			ur3Eq432G/oj6upoM6xe0LJRZXE=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>en.lproj/MainStoryboard.storyboardc/UIViewController-z2P-jC-7FQ.nib/runtime.nib</key>
+		<key>en.lproj/MainStoryboard.storyboardc/main.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YpsrtiQ83paVo8w4t9jycqw3p1g=
+			2ZMDs2BpkLfROr948iICTZuGJrQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -98,7 +98,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Z4YWMTndCT9BQkpaBmkT+x9HP+k=
+			r+aRUsFj3HUQDvP6i7WsKhM7k1c=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -107,7 +107,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			O8pcW4kB+zQp0x7s4/idivK7DHA=
+			/FOgjrIenRwroRUfFbzUdJnaYtM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -116,7 +116,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NmixdtRiHBmOlBqGRfc7oIMhzMw=
+			IIApv8SAbNno+yM14RX4UcP3oZQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -124,6 +124,10 @@
 		<key>icon.png</key>
 		<data>
 		3RKDm+DG/zQ5BFozrG7TIGjgQkc=
+		</data>
+		<key>polarbear.png</key>
+		<data>
+		A+qt/P5KTRpNdlWhtzRjmvBxSuE=
 		</data>
 		<key>voice03.mp3</key>
 		<data>
@@ -177,7 +181,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vHBJQ5M5wyrLGnrndRy/gX39KFU=
+			r8R2fdNXxBH8PNgLLnwoLcEuBGo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -186,34 +190,34 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vHBJQ5M5wyrLGnrndRy/gX39KFU=
+			r8R2fdNXxBH8PNgLLnwoLcEuBGo=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>en.lproj/MainStoryboard.storyboardc/UIViewController-z2P-jC-7FQ.nib/objects-8.0+.nib</key>
+		<key>en.lproj/MainStoryboard.storyboardc/main.nib/objects-8.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7H4nlA0v8fQv8ANMN5KdXV/yckc=
+			amfWLH14kPJfzHd40Css0E/PPd0=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>en.lproj/MainStoryboard.storyboardc/UIViewController-z2P-jC-7FQ.nib/objects.nib</key>
+		<key>en.lproj/MainStoryboard.storyboardc/main.nib/objects.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9N4v1eJ+uh66osEvHCZr/D2FifU=
+			ur3Eq432G/oj6upoM6xe0LJRZXE=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>en.lproj/MainStoryboard.storyboardc/UIViewController-z2P-jC-7FQ.nib/runtime.nib</key>
+		<key>en.lproj/MainStoryboard.storyboardc/main.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YpsrtiQ83paVo8w4t9jycqw3p1g=
+			2ZMDs2BpkLfROr948iICTZuGJrQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -222,7 +226,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Z4YWMTndCT9BQkpaBmkT+x9HP+k=
+			r+aRUsFj3HUQDvP6i7WsKhM7k1c=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -231,7 +235,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			O8pcW4kB+zQp0x7s4/idivK7DHA=
+			/FOgjrIenRwroRUfFbzUdJnaYtM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -240,7 +244,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NmixdtRiHBmOlBqGRfc7oIMhzMw=
+			IIApv8SAbNno+yM14RX4UcP3oZQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -248,6 +252,10 @@
 		<key>icon.png</key>
 		<data>
 		3RKDm+DG/zQ5BFozrG7TIGjgQkc=
+		</data>
+		<key>polarbear.png</key>
+		<data>
+		A+qt/P5KTRpNdlWhtzRjmvBxSuE=
 		</data>
 		<key>voice03.mp3</key>
 		<data>

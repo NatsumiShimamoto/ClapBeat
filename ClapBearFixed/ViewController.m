@@ -76,7 +76,7 @@
 
 
 //再生ボタンが押された際の処理
--(void)play:(id)sender {
+-(IBAction)play:(id)sender {
     
     NSLog(@"play");
     
@@ -84,9 +84,9 @@
     for(i = 0;i < repeatCount;i++){
         
         //Clapクラスの中のメソッドを呼び出し、指定回数分再生
-        [clapInstance repeatClap:repeatCount];
-        [self fallingBear];
         
+        [self fallingBear];
+        [clapInstance repeatClap:repeatCount];
         NSLog(@"while");
         
     }
@@ -104,7 +104,7 @@
     image = [UIImage imageNamed:@"polarbear.png"];
     imageView = [[UIImageView alloc]initWithImage:image];
     
-    imageView.frame = CGRectMake(15+i*40, -160, 85, 160);
+    imageView.frame = CGRectMake(15+i*40, -170, 85, 170);
     [self.view addSubview:imageView];
     
     NSLog(@"%@", NSStringFromCGRect(imageView.frame));
@@ -112,7 +112,7 @@
     // アニメーション
     
     [UIView animateWithDuration:0.5f // アニメーション速度2.5秒
-                          delay:0.1f + 0.5f * i // 0.5秒後にアニメーション
+                          delay:0.1f + 0.5f * i
                         options:UIViewAnimationOptionCurveEaseInOut
                      animations:^{
                          imageView.transform = CGAffineTransformMakeTranslation(0, 550);
