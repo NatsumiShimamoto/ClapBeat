@@ -12,11 +12,21 @@
 
 @interface ViewController : UIViewController<UIPickerViewDataSource, UIPickerViewDelegate>
 {
+    
+    
+    
+    Clap *clapInstance;
+    IBOutlet UIPickerView *clapPickerView;
+    NSString *repeatNumbersForPicker [10];
+    NSString *repearPolarbear[10];
+    
+    int repeatCount;
     IBOutlet UIButton *encountButton;
     
     UIImage *image;
     UIImageView *imageView;
     int i;
+    int sum;
 }
 
 -(IBAction)play:(id)sender;

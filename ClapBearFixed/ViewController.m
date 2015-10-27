@@ -11,15 +11,6 @@
 
 @implementation ViewController
 
-{
-    Clap *clapInstance;
-    IBOutlet UIPickerView *clapPickerView;
-    NSString *repeatNumbersForPicker [10];
-    NSString *repearPolarbear[10];
-    
-    int repeatCount;
-}
-
 - (void)viewDidLoad{
     [super viewDidLoad];
     
@@ -36,6 +27,7 @@
         
         repeatNumbersForPicker[i] = numberText;
     }
+    sum = 0;
 }
 
 
@@ -78,33 +70,27 @@
 //再生ボタンが押された際の処理
 -(IBAction)play:(id)sender {
     
-    NSLog(@"play");
-    
-    
     for(i = 0;i < repeatCount;i++){
         
         //Clapクラスの中のメソッドを呼び出し、指定回数分再生
         
         [self fallingBear];
         [clapInstance repeatClap:repeatCount];
-        NSLog(@"while");
         
     }
 }
 
 
 
-
-
-
 -(void)fallingBear{
-    NSLog(@"%d",i);
     
+    sum = sum + i;
+    NSLog(@"sum -- %d",sum);
     
     image = [UIImage imageNamed:@"polarbear.png"];
     imageView = [[UIImageView alloc]initWithImage:image];
     
-    imageView.frame = CGRectMake(15+i*40, -170, 85, 170);
+    imageView.frame = CGRectMake(5+sum*40, -170, 85, 170);
     [self.view addSubview:imageView];
     
     NSLog(@"%@", NSStringFromCGRect(imageView.frame));
@@ -117,7 +103,7 @@
                      animations:^{
                          imageView.transform = CGAffineTransformMakeTranslation(0, 550);
                          NSLog(@"移動");
-                        
+                         
                      } completion:^(BOOL finished) {
                          // アニメーション終了時
                          NSLog(@"アニメーション終了");
