@@ -27,6 +27,7 @@
     UIImageView *imageView;
     int i;
     int sum;
+    int btnPushed;
 }
 
 -(IBAction)play:(id)sender;

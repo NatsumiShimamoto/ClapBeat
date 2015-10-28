@@ -28,6 +28,7 @@
         repeatNumbersForPicker[i] = numberText;
     }
     sum = 0;
+    btnPushed = 0;
 }
 
 
@@ -70,10 +71,10 @@
 //再生ボタンが押された際の処理
 -(IBAction)play:(id)sender {
     
-    for(i = 0;i < repeatCount;i++){
+    for (i=0; i<repeatCount; i++) {
+        
         
         //Clapクラスの中のメソッドを呼び出し、指定回数分再生
-        
         [self fallingBear];
         [clapInstance repeatClap:repeatCount];
         
@@ -84,13 +85,13 @@
 
 -(void)fallingBear{
     
-    sum = sum + i;
+    //sum = sum + i;
     NSLog(@"sum -- %d",sum);
     
     image = [UIImage imageNamed:@"polarbear.png"];
     imageView = [[UIImageView alloc]initWithImage:image];
     
-    imageView.frame = CGRectMake(5+sum*40, -170, 85, 170);
+    imageView.frame = CGRectMake(5+i*40, -170, 85, 170);
     [self.view addSubview:imageView];
     
     NSLog(@"%@", NSStringFromCGRect(imageView.frame));
