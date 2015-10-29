@@ -73,7 +73,6 @@
     
     for (i=0; i<repeatCount; i++) {
         
-        
         //Clapクラスの中のメソッドを呼び出し、指定回数分再生
         [self fallingBear];
         [clapInstance repeatClap:repeatCount];
@@ -84,10 +83,7 @@
 
 
 -(void)fallingBear{
-    
-    //sum = sum + i;
-    NSLog(@"sum -- %d",sum);
-    
+       
     image = [UIImage imageNamed:@"polarbear.png"];
     imageView = [[UIImageView alloc]initWithImage:image];
     
