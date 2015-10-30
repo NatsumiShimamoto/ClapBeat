@@ -27,8 +27,6 @@
         
         repeatNumbersForPicker[i] = numberText;
     }
-    sum = 0;
-    btnPushed = 0;
 }
 
 
